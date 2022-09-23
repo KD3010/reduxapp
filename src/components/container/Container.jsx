@@ -1,7 +1,7 @@
 import './container.scss';
 import React, { useEffect } from 'react';
 import Card from '../Card/Card';
-import { fetchData } from '../../redux/action';
+import { setData } from '../../redux/action';
 import { useDispatch, useSelector } from 'react-redux';
 
 const Container = () => {
@@ -9,7 +9,7 @@ const Container = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchData());
+    dispatch(setData());
   });
 
   return (
