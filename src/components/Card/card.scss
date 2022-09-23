@@ -1,0 +1,10 @@
+.card {
+  background-color: rgb(240, 240, 240);
+  box-shadow: 0 3px 5px grey;
+  border-radius: 3px;
+  min-width: 300px;
+
+  &-specifications {
+    padding: 1rem;
+  }
+}
